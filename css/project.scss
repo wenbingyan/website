@@ -1,0 +1,117 @@
+*{margin: 0; padding: 0;}
+a{ text-decoration: none;}
+li{list-style: none; }
+img{display: block;}
+input{ outline:none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearFix:after{ content:"";display: block;clear: both;}
+.clearFix{zoom:1;}
+
+body,html{
+    width: 100%;
+}
+body{
+    background: #0f1014;
+}
+.canv{
+    position: absolute;
+}
+.wraper{
+    margin: 0 50px;
+    font-family:  \5FAE\8F6F\96C5\9ED1 ;
+    .project{
+        position: fixed;
+        color: #fff;
+        font-weight: 200;
+        top: 27px;
+        left: 32px;
+        font-family:  \5FAE\8F6F\96C5\9ED1 ;
+    }
+    ul{
+        padding-top: 60px;
+        li{
+            width: 100%;
+            height: 460px;
+            display: block;
+            text-align: center;
+            margin-top: 8%;
+            margin-bottom: 8%;
+            .one{
+                width: 1000px;
+                height: 450px;
+                top: 70px;
+                opacity: 1;
+                display: inline-block;
+                text-align: left;
+                cursor: default;
+                position: relative;
+                transition: 500ms all ease;
+                .word{
+                    display: block;
+                    width: 550px;
+                    height: 450px;
+                    cursor: pointer;
+                    position: absolute;
+                    z-index: 2;
+                    margin-top: 75px;
+                    .time{
+                        color: #4c4c4c;
+                        font-size: 20px;
+                        font-weight: 300;
+                        display: block;
+                        margin-bottom: 10px;
+                      
+                    }
+                    .title{
+                        padding-top: 20px;
+                        height: 64px;
+                        color: #fff;
+                        font-size: 44px;
+                        
+                        position: absolute;
+                        height: 290px;
+                        transition: 500ms all ease;
+                        display: block;
+                        .biaoti{
+                            display: block;
+                            height: 80px;
+                            font-weight: 400;
+                        }
+                        .cont{
+                            display: block;
+                            font-size: 24px;
+                            height: 80px;
+                            color: #999;
+                             
+                        }
+                    }
+                }
+                .img{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    display: block;
+                    width: 780px;
+                    height: 450px;
+                    cursor: pointer;
+                    overflow: hidden;
+                    background: #000;
+                    .imgbg{
+                        width: 800px;
+                        opacity: 0.6;
+                        height: 100%;
+                        background: goldenrod;
+                        transition: 500ms all ease;
+                    }
+                }
+            }
+        }
+    }
+}
+.one:hover .word .title{
+    margin-left: 20px;
+}
+.one:hover .img .imgbg{
+    margin-left: -20px;
+}

@@ -1,0 +1,71 @@
+*{margin: 0; padding: 0;}
+a{ text-decoration: none;}
+li{list-style: none; line-height: 100%;}
+img{display: block;}
+input{ outline:none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearFix:after{ content:"";display: block;clear: both;}
+.clearFix{zoom:1;}
+
+.wraper{width: 960px; margin: 0 auto;}
+
+
+
+.header{
+    width: 780px;
+    height: 504px;
+    padding: 36px 89px 156px;
+    div{
+        width: 100%;
+        height: 100%;
+        background: url(../img/school/bg.jpg);
+        background-size:cover ;
+        position: relative;
+        span{
+            width: 304px;
+            height: 64px;
+            display: block;
+            border-bottom: 2px solid #fff;
+            border-top: 2px solid #fff;
+            text-align: center;
+            line-height: 64px;
+            font-size: 30px;
+            color: #fff;
+            font-family:  \5FAE\8F6F\96C5\9ED1;
+            position: absolute;
+            top: 76px;
+            left: 85px;
+        }
+    }
+}
+.content{
+    width: 100%;  
+    .content-1{
+        height: 640px;
+        width: 100%;
+        margin-bottom: 392px;
+    }
+    .content-2{
+        height: 779px;
+        width: 100%;
+        background: yellow;
+        margin-bottom: 168px;
+        position: relative;
+        .word{
+            width: 819px;
+            height: 556px;
+            background: #ccc;
+            position: absolute;
+            top: -289px;
+            left: 64px;
+        }
+    }
+    .content-3{
+        width: 840px;
+        height: 716px;
+        margin-left: 56px;
+        margin-bottom: 144px;
+        background: pink;
+    }
+}
