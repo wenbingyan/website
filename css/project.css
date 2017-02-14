@@ -108,9 +108,8 @@ body {
           background: #000; }
           .wraper ul li .one .img .imgbg {
             width: 800px;
-            opacity: 0.6;
+            opacity: 0.8;
             height: 100%;
-            background: goldenrod;
             transition: 500ms all ease; }
 
 .one:hover .word .title {
